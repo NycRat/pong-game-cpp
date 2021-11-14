@@ -1,12 +1,11 @@
 #include "Player.hpp"
 
-Player::Player() {
+Player::Player(sf::Vector2f position) {
     texture.loadFromFile("assets/player.png");
     setTexture(texture);
-    setTextureRect(sf::IntRect(0,0,150,150));
-    setPosition(200,200);
+    setTextureRect(sf::IntRect(0,0,20,300));
+    setPosition(position);
 }
 
 void Player::update(double dt) {
-    setPosition(getPosition().x+dt*100,getPosition().y+dt*100);
 }

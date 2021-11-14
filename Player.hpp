@@ -4,7 +4,7 @@ class Player: public sf::Sprite {
 private:
     sf::Texture texture;
 public:
-    Player();
+    Player(sf::Vector2f);
     ~Player() = default;
     void update(double dt);
 };
