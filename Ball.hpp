@@ -4,6 +4,7 @@ class Ball: public sf::Sprite {
 private:
     sf::Texture texture;
     float speed = 600;
+    float speedIncrease=1;
     sf::Vector2f direction = {0.4f,1};
 public:
     Ball(sf::Vector2f);

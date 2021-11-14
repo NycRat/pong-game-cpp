@@ -17,7 +17,8 @@ void Ball::update(float dt) {
 
 void Ball::collide(int side) {
     float change = (float)((rand()%10)-5)/100;
-    speed=500+rand()%300;
+    speedIncrease+=5;
+    speed=500+speedIncrease+rand()%300;
     if (side == 0) {
         direction.x = direction.x + change;
         direction.y = 1;
