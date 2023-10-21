@@ -1,0 +1,66 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/local/include",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/Player.o",
+      "src/Player.cpp"
+    ],
+    "directory": "/Users/avah/pong-game-cpp",
+    "file": "/Users/avah/pong-game-cpp/src/Player.cpp",
+    "output": "/Users/avah/pong-game-cpp/build/Player.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/local/include",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/Users/avah/pong-game-cpp",
+    "file": "/Users/avah/pong-game-cpp/src/main.cpp",
+    "output": "/Users/avah/pong-game-cpp/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/local/include",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/Game.o",
+      "src/Game.cpp"
+    ],
+    "directory": "/Users/avah/pong-game-cpp",
+    "file": "/Users/avah/pong-game-cpp/src/Game.cpp",
+    "output": "/Users/avah/pong-game-cpp/build/Game.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-Wall",
+      "-I/usr/local/include",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/Ball.o",
+      "src/Ball.cpp"
+    ],
+    "directory": "/Users/avah/pong-game-cpp",
+    "file": "/Users/avah/pong-game-cpp/src/Ball.cpp",
+    "output": "/Users/avah/pong-game-cpp/build/Ball.o"
+  }
+]
